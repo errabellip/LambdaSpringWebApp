@@ -22,7 +22,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.examples.rs", lazyInit = true)
+@ComponentScan(basePackages = "com.errabelli.lambda.spring.rs.", lazyInit = true)
 public class ExampleApplication {
 
 	private static final String ENVIRONMENT_NAME = "DAI_ENV";
